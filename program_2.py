@@ -18,4 +18,3 @@ elif age < 20 > 13:
     
 elif age >= 20:
     print("You are an adult")
-pytest -s
