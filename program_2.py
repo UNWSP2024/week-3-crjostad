@@ -6,11 +6,19 @@
 # If the person is at least 20 year old, it should display "adult".
 
 def categorize_age(age):
-    ageCategory = "TBD"
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################
+    number = float(input("Enter your age :"))
 
+if number <= 1:
+    print("You are an infant")
+
+elif number <= 12 > 1:
+    print("You are a child")
+    
+elif number < 20 > 13:
+    print("You are a teenager")
+    
+elif number >= 20:
+    print("You are an adult")
 
     return ageCategory
 
