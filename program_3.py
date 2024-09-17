@@ -15,14 +15,14 @@ def weight_conversion(weight):
     if weight <= 2:
         print("$", weight*1.5)
     
-elif weight <= 6 > 2:
-    print("$", weight*3)
+    elif weight <= 6 > 2:
+        print("$", weight*3)
     
-elif weight <= 10 > 6:
-    print("$",  weight*4)
+    elif weight <= 10 > 6:
+        print("$",  weight*4)
     
-else:
-    print("$", weight*4.75)
+    else:
+        print("$", weight*4.75)
    
     
     return shippingCost
