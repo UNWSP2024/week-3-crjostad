@@ -6,7 +6,7 @@
 # If the person is at least 20 year old, it should display "adult".
 
 def categorize_age(age):
-    number = float(input("Enter your age :"))
+    number = float(input("Enter your age :5"))
 
 if number <= 1:
     print("You are an infant")
@@ -19,8 +19,6 @@ elif number < 20 > 13:
     
 elif number >= 20:
     print("You are an adult")
-
-    return ageCategory
 
 
 #### This piece of the code has been done for you,
