@@ -13,7 +13,7 @@ def weight_conversion(weight):
     # Calculate the shipping charge.
 
     if weight <= 2:
-    print("$", weight*1.5)
+        print("$", weight*1.5)
     
 elif weight <= 6 > 2:
     print("$", weight*3)
