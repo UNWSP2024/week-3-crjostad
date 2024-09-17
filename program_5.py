@@ -4,16 +4,3 @@
 # Also tax is 7%. 
 # Write a program the inputs the type of hot dog wanted and optional toppings.  
 # The program then displays the hot dog cost, tax and total cost. 
-hot_dog = 3.5
-
-chili_dog = 4.5
-
-cheese = .5
-
-peppers = .75
-
-grilled_onions = 1
-
-Subtotal = float(input("Enter Hot dog choice: "))
-
-print("Your total comes to $", Subtotal + Subtotal*.07)
