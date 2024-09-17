@@ -28,5 +28,3 @@ if __name__ == '__main__':
     # Get age from the user.
     age = float(input("Enter the person's age: "))
     # Display the age
-    ageBucket = categorize_age(age)
-    print (ageBucket)
